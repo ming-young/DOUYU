@@ -32,6 +32,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F01C1E31FAB6124007650E6 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		1F01C1E41FAB6124007650E6 /* Home~.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Home~.storyboard"; sourceTree = "<group>"; };
+		1F01C1E61FAB6124007650E6 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		1FD5BD131FAAAF99002AA53D /* DYZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FD5BD161FAAAF99002AA53D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FD5BD1D1FAAAF99002AA53D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -70,6 +73,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F01C1E01FAB6124007650E6 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				1F01C1E11FAB6124007650E6 /* Follow */,
+				1F01C1E21FAB6124007650E6 /* Home */,
+				1F01C1E31FAB6124007650E6 /* Home.storyboard */,
+				1F01C1E41FAB6124007650E6 /* Home~.storyboard */,
+				1F01C1E51FAB6124007650E6 /* Live */,
+				1F01C1E61FAB6124007650E6 /* Main.storyboard */,
+				1F01C1E71FAB6124007650E6 /* Profile */,
+				1F01C1E81FAB6124007650E6 /* Tools */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		1F01C1E11FAB6124007650E6 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		1F01C1E21FAB6124007650E6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1F01C1E51FAB6124007650E6 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		1F01C1E71FAB6124007650E6 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		1F01C1E81FAB6124007650E6 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		1FD5BD0A1FAAAF99002AA53D = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +146,7 @@
 		1FD5BD151FAAAF99002AA53D /* DYZB */ = {
 			isa = PBXGroup;
 			children = (
+				1F01C1E01FAB6124007650E6 /* Code */,
 				1FD5BD161FAAAF99002AA53D /* AppDelegate.swift */,
 				1FD5BD1D1FAAAF99002AA53D /* Assets.xcassets */,
 				1FD5BD1F1FAAAF99002AA53D /* LaunchScreen.storyboard */,
